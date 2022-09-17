@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tetris</title>
+	<link rel="stylesheet" href="tetris.css">
+	<script src="drawing.js"></script>
+</head>
+<body>
+	<canvas id="tetris" width="630" height="800"></canvas>
+	<img id="russblue" src="res/russblue.bmp">
+	<img id="russgrey" src="res/russgrey.bmp">
+	<img id="russorange" src="res/russorange.bmp">
+	<img id="russred" src="res/russred.bmp">
+	<img id="russthinblue" src="res/russthinblue.bmp">
+	<img id="russthingreen" src="res/russthingreen.bmp">
+	<img id="russthinpurple" src="res/russthinpurple.bmp">
+	<img id="russwhite" src="res/russwhite.bmp">
+
+	<div><p id="scores"></p></div>
+	<script>
+		var context = document.getElementById("tetris").getContext("2d");
+		onTetrisStart(context);
+	</script>
+</body>
+</html>
